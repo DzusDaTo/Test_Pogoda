@@ -30,6 +30,7 @@ pip install -r requirements.txt
 Миграции
 
 ```
+python manage.py makemigrations
 python manage.py migrate
 ```
 
@@ -37,6 +38,10 @@ python manage.py migrate
 
 ```
 python manage.py runserver
+```
+Запуск телеграмм-бота
+```
+pytest tests.py
 ```
 
 ## API
